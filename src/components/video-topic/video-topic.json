@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_video_topic_video_topics",
+  "info": {
+    "displayName": "VideoTopic"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}

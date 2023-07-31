@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videolibraries",
+  "info": {
+    "singularName": "videolibrary",
+    "pluralName": "videolibraries",
+    "displayName": "Videolibrary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "VideoTopic": {
+      "displayName": "VideoTopic",
+      "type": "component",
+      "repeatable": true,
+      "component": "video-topic.video-topic"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recomended_for_yous",
+  "info": {
+    "singularName": "recomended-for-you",
+    "pluralName": "recomended-for-yous",
+    "displayName": "RecomendedForYou"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videourl": {
+      "type": "string",
+      "required": true
+    },
+    "Coverimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
